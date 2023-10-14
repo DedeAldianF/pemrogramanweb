@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Form Registrasi</title> 
+</head>
+<body>
+
+<h1>Form Registrasi</h1> 
+
+<form action="proses_pendaftaran.php" method="post"> 
+    <input type="text" name="nama" placeholder= "Nama">
+    <input type="date" name="tgl_lahir" placeholder="Tanggal lahir"> 
+    <input type="text" name="alamat" placeholder="Alamat"> 
+    <input type="text" name="kota" placeholder="Kota"> 
+    <select name="pekerjaan">
+<option value="Tani">Tani</option> 
+<option value="Pegawai Negeri">Pegawai Negeri</option> 
+<option value="Wiraswasta">Wiraswasta</option> 
+<option value="Pelajar">Pelajar</option>
+<option value="Lainnya">Lainnya</option>
+</select> 
+<input type="radio" name="jenis_kelamin" value="laki-laki">Laki-laki 
+<input type="radio" name="¡enis kelamin" value="perempuan">Perempuan 
+<input type="checkbox" name="hobi []" value="Reading">Reading 
+<input type="checkbox" name="hobi[]" value="Sport">Sport 
+<input type="checkbox" name="hobi[" value="Singing">Singing 
+<input type="checkbox" name= "hobi[]" value="Traveling">Traveling 
+<input type="submit" name="register" value="Kirim">
+<input type="submit" name="cancel" value="Cancel">
+</form>
+
+</body>
